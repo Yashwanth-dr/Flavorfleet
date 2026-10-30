@@ -1,4 +1,4 @@
-# 🍔 FlavorFleet - Online Food Ordering & Delivery Platform
+# 🍔 Ruchi - Online Food Ordering & Delivery Platform
 
 [![Java](https://img.shields.io/badge/Java-21%20LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-10-F05032?style=for-the-badge&logo=jakarta&logoColor=white)](https://jakarta.ee/)
@@ -25,7 +25,7 @@
 
 ## 🏛️ System Architecture (MVC Pattern)
 
-FlavorFleet follows the standard enterprise **Model-View-Controller (MVC)** design pattern combined with the **Data Access Object (DAO)** pattern:
+Ruchi follows the standard enterprise **Model-View-Controller (MVC)** design pattern combined with the **Data Access Object (DAO)** pattern:
 
 ```mermaid
 graph TD
