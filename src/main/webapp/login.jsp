@@ -14,11 +14,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In | Ruchi</title>
+    <title>Sign In | FlavorFleet</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
-    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
+    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/FlavorFleet-logo.png?v=2">
+    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/FlavorFleet-logo.png?v=2">
 
     <!-- Master Common External Stylesheet -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css">
@@ -34,7 +34,7 @@
 
             <!-- Left: Hero Showcase Banner (55% width, 100% Complete Composition) -->
             <section class="login-hero-side">
-                <img src="<%= request.getContextPath() %>/images/ruchi-login-hero.jpg" 
+                <img src="<%= request.getContextPath() %>/images/FlavorFleet-login-hero.jpg" 
                      alt="Welcome back, good food awaits! Delicious food. Local restaurants. Faster deliveries." 
                      class="login-hero-banner-img">
             </section>

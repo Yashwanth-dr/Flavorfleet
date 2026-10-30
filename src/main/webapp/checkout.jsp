@@ -30,13 +30,13 @@
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Checkout | Ruchi</title>
+                <title>Checkout | FlavorFleet</title>
 
                 <!-- Favicon -->
                 <link rel="icon" type="image/png"
-                    href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
+                    href="<%= request.getContextPath() %>/images/FlavorFleet-logo.png?v=2">
                 <link rel="shortcut icon" type="image/png"
-                    href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
+                    href="<%= request.getContextPath() %>/images/FlavorFleet-logo.png?v=2">
 
                 <!-- Master Common External Stylesheet -->
                 <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css">
@@ -157,7 +157,7 @@
                                             <div style="display:flex;align-items:center;gap:10px;">
                                                 <img src="<%= imgUrl %>" alt="<%= item.getMenu().getItemName() %>"
                                                     class="summary-img"
-                                                    onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
+                                                    onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/FlavorFleet-logo.jpg';">
                                                 <div>
                                                     <div style="font-size:14px;font-weight:700;">
                                                         <%= item.getMenu().getItemName() %>

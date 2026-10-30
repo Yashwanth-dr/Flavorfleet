@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Ruchi | Create Account</title>
+    <title>Join FlavorFleet | Create Account</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
-    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
+    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/FlavorFleet-logo.png?v=2">
+    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/FlavorFleet-logo.png?v=2">
 
     <!-- Master Common External Stylesheet -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css">
@@ -24,7 +24,7 @@
             
             <!-- Left: Hero Showcase Banner (100% Complete Composition) -->
             <section class="signup-hero-side">
-                <img src="<%= request.getContextPath() %>/images/ruchi-signup-hero.png" 
+                <img src="<%= request.getContextPath() %>/images/FlavorFleet-signup-hero.png" 
                      alt="Good food, right to your door. Fresh meals. Local restaurants. Faster deliveries." 
                      class="signup-hero-banner-img">
             </section>
@@ -36,7 +36,7 @@
                     &#10024;
                 </div>
 
-                <h2 class="signup-form-title">Join Ruchi</h2>
+                <h2 class="signup-form-title">Join FlavorFleet</h2>
                 <p class="signup-form-sub">Create an account to order food and track deliveries</p>
 
                 <!-- Notice when arriving from checkout -->

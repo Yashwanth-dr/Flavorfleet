@@ -1,14 +1,14 @@
 -- ========================================================
 -- FlavorFleet Food Delivery Platform - Database Schema & Seed Data
 -- Database Engine: MySQL 8.0+ / 9.0+
--- Database Name: flavorfleet
+-- Database Name: FlavorFleet
 -- ========================================================
 
-CREATE DATABASE IF NOT EXISTS `flavorfleet`
+CREATE DATABASE IF NOT EXISTS `FlavorFleet`
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
 
-USE `flavorfleet`;
+USE `FlavorFleet`;
 
 -- --------------------------------------------------------
 -- 1. Table structure for table `users`
@@ -105,7 +105,7 @@ CREATE TABLE `orderitem` (
 -- Insert Demo Users
 INSERT INTO `users` (`username`, `password`, `email`, `phone`, `address`, `role`) VALUES
 ('John Doe', '$2a$12$C9IOqDEAEWqMTngJ.X6mouv0nRHk.bzzn4dCyDAe7PzxHBZzELe1C', 'john@example.com', '9876543210', 'BTM Layout 2nd Stage, Bengaluru', 'Customer'),
-('Admin User', '$2a$12$C9IOqDEAEWqMTngJ.X6mouv0nRHk.bzzn4dCyDAe7PzxHBZzELe1C', 'admin@flavorfleet.com', '9876500000', 'MG Road, Bengaluru', 'Admin');
+('Admin User', '$2a$12$C9IOqDEAEWqMTngJ.X6mouv0nRHk.bzzn4dCyDAe7PzxHBZzELe1C', 'admin@FlavorFleet.com', '9876500000', 'MG Road, Bengaluru', 'Admin');
 
 -- Insert Sample Restaurants
 INSERT INTO `restaurant` (`restaurantId`, `name`, `cuisineType`, `deliveryTime`, `address`, `adminUserId`, `rating`, `isActive`, `imagePath`) VALUES

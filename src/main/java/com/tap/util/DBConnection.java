@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class DBConnection {
 	
-	private static final String URL = "jdbc:mysql://localhost:3306/flavorfleet";
+	private static final String URL = "jdbc:mysql://localhost:3306/FlavorFleet";
     private static final String USERNAME = "root";
 private static final String PASSWORD =
-        System.getenv("FLAVORFLEET_DB_PASSWORD");
+        System.getenv("FlavorFleet_DB_PASSWORD");
 
     public static Connection getConnection() {
 

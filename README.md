@@ -1,4 +1,4 @@
-# 🍔 Ruchi - Online Food Ordering & Delivery Platform
+# 🍔 FlavorFleet - Online Food Ordering & Delivery Platform
 
 [![Java](https://img.shields.io/badge/Java-21%20LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-10-F05032?style=for-the-badge&logo=jakarta&logoColor=white)](https://jakarta.ee/)
@@ -6,7 +6,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Security](https://img.shields.io/badge/Security-jBCrypt%20Hashing-green?style=for-the-badge&logo=security&logoColor=white)](https://www.mindrot.org/projects/jBCrypt/)
 
-**Ruchi** is an enterprise-grade, full-stack food delivery web application built using **Java (Jakarta EE 10), Servlets, JSP, JDBC, and MySQL**. The platform delivers a seamless food discovery, cart ordering, and delivery experience crafted with a custom **Claymorphic & Glassmorphic UI design system**.
+**FlavorFleet** is an enterprise-grade, full-stack food delivery web application built using **Java (Jakarta EE 10), Servlets, JSP, JDBC, and MySQL**. The platform delivers a seamless food discovery, cart ordering, and delivery experience crafted with a custom **Claymorphic & Glassmorphic UI design system**.
 
 ---
 
@@ -25,7 +25,7 @@
 
 ## 🏛️ System Architecture (MVC Pattern)
 
-Ruchi follows the standard enterprise **Model-View-Controller (MVC)** design pattern combined with the **Data Access Object (DAO)** pattern:
+FlavorFleet follows the standard enterprise **Model-View-Controller (MVC)** design pattern combined with the **Data Access Object (DAO)** pattern:
 
 ```mermaid
 graph TD
@@ -131,11 +131,11 @@ erDiagram
 1. Open MySQL Command Line or MySQL Workbench.
 2. Run the provided database initialization script:
    ```sql
-   SOURCE path/to/Ruchi/schema.sql;
+   SOURCE path/to/FlavorFleet/schema.sql;
    ```
 3. Verify your database credentials in `src/main/java/com/tap/util/DBConnection.java`:
    ```java
-   private static final String URL = "jdbc:mysql://localhost:3306/ruchi";
+   private static final String URL = "jdbc:mysql://localhost:3306/FlavorFleet";
    private static final String USERNAME = "root";
    private static final String PASSWORD = "root"; // Update to your local MySQL password
    ```
@@ -143,13 +143,13 @@ erDiagram
 ### 3. Import & Run in Eclipse
 1. Open Eclipse IDE.
 2. Click **File** &rarr; **Import...** &rarr; **General** &rarr; **Existing Projects into Workspace**.
-3. Select the `Ruchi` root directory and click **Finish**.
+3. Select the `FlavorFleet` root directory and click **Finish**.
 4. Configure Apache Tomcat 10.1 runtime if prompted:
    - Right-click project &rarr; **Properties** &rarr; **Targeted Runtimes** &rarr; Check **Apache Tomcat v10.1**.
 5. Right-click project &rarr; **Run As** &rarr; **Run on Server** (Select Apache Tomcat 10.1).
 6. Open your browser and navigate to:
    ```
-   http://localhost:8081/Ruchi/restaurant
+   http://localhost:8081/FlavorFleet/restaurant
    ```
 
 ---
@@ -161,16 +161,16 @@ The seed database comes pre-loaded with verified demo accounts (passwords hashed
 | Role | Email Address | Password |
 | :--- | :--- | :--- |
 | **Customer** | `john@example.com` | `password123` |
-| **Admin** | `admin@ruchi.com` | `password123` |
+| **Admin** | `admin@FlavorFleet.com` | `password123` |
 
-*(You can also register a brand new account on the [Sign Up](http://localhost:8081/Ruchi/register.jsp) page).*
+*(You can also register a brand new account on the [Sign Up](http://localhost:8081/FlavorFleet/register.jsp) page).*
 
 ---
 
 ## 📂 Project Directory Structure
 
 ```text
-Ruchi/
+FlavorFleet/
 ├── .gitignore                      # Git exclusion rules
 ├── schema.sql                      # Complete MySQL database schema & seed records
 ├── README.md                       # Project documentation
