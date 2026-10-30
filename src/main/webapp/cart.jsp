@@ -14,11 +14,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cart | FlavorFleet</title>
+    <title>My Cart | Ruchi</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2">
-    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2">
+    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
+    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
 
     <!-- Master Common External Stylesheet -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css">
@@ -69,7 +69,7 @@
                         <!-- Thumbnail & Title -->
                         <div class="item-main">
                             <img src="<%= imgUrl %>" alt="<%= item.getMenu().getItemName() %>" class="item-thumb"
-                                 onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                                 onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                             <div>
                                 <h3 class="item-title"><%= item.getMenu().getItemName() %></h3>
                                 <div class="item-unit-price">&#8377;<%= String.format("%.2f", item.getMenu().getPrice()) %> each</div>

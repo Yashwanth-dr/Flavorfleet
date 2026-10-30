@@ -17,11 +17,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu | FlavorFleet</title>
+    <title>Menu | Ruchi</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2">
-    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2">
+    <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
+    <link rel="shortcut icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
 
     <!-- Master Common External Stylesheet -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css">
@@ -87,7 +87,7 @@
                 <article class="dish-clay-card" data-name="<%= m.getItemName().toLowerCase() %>">
                     <div class="dish-img-box">
                         <img class="dish-img" src="<%= imgUrl %>" alt="<%= m.getItemName() %>" loading="lazy"
-                             onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                             onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                     </div>
 
                     <div class="dish-content">

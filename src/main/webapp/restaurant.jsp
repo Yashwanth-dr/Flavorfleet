@@ -7,12 +7,12 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>FlavorFleet | Order Food Online from Top Restaurants</title>
+            <title>Ruchi | Order Food Online from Top Restaurants</title>
 
             <!-- Favicon & App Icons -->
-            <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2">
+            <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
             <link rel="shortcut icon" type="image/png"
-                href="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2">
+                href="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2">
 
             <!-- Master Common External Stylesheet -->
             <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css">
@@ -51,7 +51,7 @@
                                 <div class="carousel-slide active">
                                     <img src="<%= request.getContextPath() %>/images/restaurants/chicken-biryani.jpg"
                                         alt="Royal Biryani"
-                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                                     <div class="carousel-overlay">
                                         <span class="carousel-tag">&#128293; Royal Biryani</span>
                                         <div>
@@ -65,7 +65,7 @@
                                 <div class="carousel-slide">
                                     <img src="<%= request.getContextPath() %>/images/restaurants/masala-dosa.jpg"
                                         alt="Crispy Dosa"
-                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                                     <div class="carousel-overlay">
                                         <span class="carousel-tag">&#9889; South Indian Classic</span>
                                         <div>
@@ -79,7 +79,7 @@
                                 <div class="carousel-slide">
                                     <img src="<%= request.getContextPath() %>/images/restaurants/paneer-butter-masala.jpg"
                                         alt="Paneer Butter Masala"
-                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                                     <div class="carousel-overlay">
                                         <span class="carousel-tag">&#11088; North Indian Delight</span>
                                         <div>
@@ -93,7 +93,7 @@
                                 <div class="carousel-slide">
                                     <img src="<%= request.getContextPath() %>/images/restaurants/tandoori-chicken.jpg"
                                         alt="Tandoori"
-                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                                        onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                                     <div class="carousel-overlay">
                                         <span class="carousel-tag">&#127831; Clay-Oven Grills</span>
                                         <div>
@@ -174,7 +174,7 @@
                                         <div class="image-wrapper">
                                             <img class="restaurant-image" src="<%= imageUrl %>" alt="<%= name %>"
                                                 loading="lazy"
-                                                onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                                                onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
 
                                             <div class="delivery-pill">
                                                 <span>&#9889;</span>

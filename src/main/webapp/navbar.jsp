@@ -19,10 +19,10 @@
     <div class="clay-nav-container">
         <!-- Left: Brand Logo & Dynamic Location -->
         <div style="display:flex;align-items:center;gap:14px;">
-            <a href="<%= request.getContextPath() %>/restaurant" class="clay-brand" title="FlavorFleet Home">
-                <img src="<%= request.getContextPath() %>/images/flavorfleet-logo.png?v=2" alt="FlavorFleet"
+            <a href="<%= request.getContextPath() %>/restaurant" class="clay-brand" title="Ruchi Home">
+                <img src="<%= request.getContextPath() %>/images/ruchi-logo.png?v=2" alt="Ruchi"
                      class="clay-brand-logo"
-                     onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/flavorfleet-logo.jpg';">
+                     onerror="this.onerror=null; this.src='<%= request.getContextPath() %>/images/ruchi-logo.jpg';">
                 <div class="clay-brand-text">
                     Flavor<span>Fleet</span>
                 </div>
@@ -41,7 +41,7 @@
         <!-- Right: Actions (Home, Restaurants, Auth, Cart, Logout) -->
         <div class="clay-nav-right">
             <!-- Home Link: Shows the entire Home Page -->
-            <a href="<%= request.getContextPath() %>/restaurant" class="clay-btn clay-btn-secondary" title="FlavorFleet Home">
+            <a href="<%= request.getContextPath() %>/restaurant" class="clay-btn clay-btn-secondary" title="Ruchi Home">
                 <span>&#127968;</span>
                 <span class="nav-text">Home</span>
             </a>
@@ -110,7 +110,7 @@
         <div style="width:54px;height:54px;border-radius:50%;background:#fee2e2;color:#dc2626;display:flex;align-items:center;justify-content:center;font-size:26px;margin:0 auto 14px;">
             &#128682;
         </div>
-        <h3 style="font-size:20px;font-weight:800;color:#1e1b18;margin-bottom:8px;">Sign out of FlavorFleet?</h3>
+        <h3 style="font-size:20px;font-weight:800;color:#1e1b18;margin-bottom:8px;">Sign out of Ruchi?</h3>
         <p style="font-size:15px;color:#1e1b18;font-weight:500;line-height:1.6;margin-bottom:24px;">Are you sure you want to log out of your account?</p>
         <div style="display:flex;gap:12px;justify-content:center;">
             <button type="button" class="clay-btn clay-btn-secondary" onclick="closeLogoutModal()" style="flex:1;padding:11px;">Cancel</button>
